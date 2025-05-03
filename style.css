@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background: #f0f0f0;
+    transition: background-color 0.5s ease;
+  }
+  
+  button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .tab-content {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  input {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.4rem;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  input:invalid {
+    border: 2px solid red;
+  }
+
+  #img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  #slide-img {
+  width: 300px;
+  height: auto; /* Keeps aspect ratio */
+  border-radius: 10px; /* Optional styling */
+  max-width: 100%; /* Responsive resizing */
+}

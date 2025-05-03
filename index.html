@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Fun Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>HOLIDAY DESTINATIONS🎉</h1>
+  </header>
+
+  <main>
+    <section class="buttons">
+      <button id="color-btn">Change Background</button>
+      <button id="secret-btn">Double Click Me</button>
+    </section>
+
+    <section class="slideshow">
+        <h2>Image Slideshow</h2>
+        <img id="slide-img" src="images/pexels-mark-neal-201020-2225442.jpg" alt="Slideshow" />
+        <p id="slide-info3">Enjoy the view!</p>
+        <p id="slide-info2">Photos of both Japan and Italy, of which more about the countries will be explained.</p>
+        <p id="slide-info4">Click the buttons to navigate through the images.</p>
+        <div>
+          <button id="prev">⏮️ Previous</button>
+          <button id="next">⏭️ Next</button>
+        </div>
+      </section>
+      
+
+    <section class="tabs">
+      <button class="tab" data-target="tab1">Tab 1</button>
+      <button class="tab" data-target="tab2">Tab 2</button>
+      <div id="tab1" class="tab-content">🌟 Welcome to Tab 1
+        <p>Click the buttons above to switch tabs.</p>
+        <p>Here's some information on Italy.</p>
+        <p>Italy, officially the Italian Republic, remains a captivating Southern European nation in 2025, celebrated for its profound historical legacy, vibrant culture, and breathtaking landscapes. 
+            As a key member of the European Union, the Eurozone, and the Schengen Area, Italy continues to exert considerable influence in European affairs. Its rich tapestry of ancient Roman roots, the flourishing of the Renaissance, and a complex journey to unification have shaped its identity. 
+            Today, Italy boasts world-renowned art, architecture, fashion, and cuisine, attracting millions of tourists annually to its iconic cities like Rome, Florence, and Venice, as well as its diverse natural beauty from the Alps to the Mediterranean coasts. 
+            Family and tradition remain central to Italian society, while the nation navigates the complexities of the modern world with a blend of historical pride and contemporary dynamism.</p>
+      </div>
+      <div id="tab2" class="tab-content hidden">🚀 Now you're in Tab 2
+        <p>Click the buttons above to switch tabs.</p>
+        <p>Here's some information on Japan.</p>
+        <p>Japan, an island nation in East Asia, is a captivating blend of ancient traditions and cutting-edge modernity. In 2025, it continues to be a global leader in technology, culture, and innovation. 
+            Renowned for its rich history, Japan boasts UNESCO World Heritage sites, including ancient temples and shrines. The country is also famous for its unique cultural practices, such as tea ceremonies and traditional arts like calligraphy and ikebana. 
+            Japan's cuisine, including sushi, ramen, and tempura, remains a global favorite. With a strong emphasis on education and technological advancement, Japan is home to some of the world's leading companies in electronics and automotive industries. 
+            The nation's commitment to sustainability and environmental conservation is evident in its efforts to balance urban development with nature preservation. As a hub of creativity and tradition, Japan continues to inspire the world with its unique blend of past and future.</p>
+      </div>
+    </section>
+
+    <section class="form">
+      <h2>Signup Form</h2>
+        <p>Fill out the form below to sign up! You may be among our lucky winners to get to visit either country.</p>
+      <form id="signup-form" novalidate>
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit">Submit</button>
+        <p id="form-msg"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Interactive Fun</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
